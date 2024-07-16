@@ -326,6 +326,16 @@ Complete Exercise 15 in the space below:
 */
 
 
+let total = 0;
+console.log(numArrays)
+numArrays.forEach(array => {
+   console.log(array)
+   array.forEach((num) => {
+      console.log(num)
+      total += num;
+   })
+})
+
 
 console.log('Exercise 15 result:\n', total);
 
