@@ -295,8 +295,18 @@ Complete Exercise 14 in the space below:
 // [7, 81, 90]
 // ];
 
-const num = numArrays
+let num = 0
 
+numArrays.forEach((numArrays) => {
+   console.log (numArrays, 'inside a forEach')
+      for (let i = 0; i < numArrays.length; i++) {
+         if (numArrays [i] === 66) {
+            console.log(num, 'in the if statment')
+            num = numArrays[i]
+         }
+      }
+
+})
 
 console.log('Exercise 14 result:', num);
 
